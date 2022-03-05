@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    text-align: center;
+    font-family: 'Josefin Sans';
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+h1{
+    box-sizing: border-box;
+    font-size: 50px;
+    text-align: center;
+    height: 10vh;
+    line-height: 10vh;
+    text-transform: uppercase;
+    padding: 15px;
+
+}
+nav {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+nav div{
+    display: flex;
+    background-color:rgba(89, 109, 129,0.9);
+    flex-basis: 25%;
+    padding: 15px;
+    flex-direction: column;
+    border-radius: 20px;
+
+}
+nav div a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+nav div a:hover{
+    color: #651818;
+    cursor: pointer;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: url("../img/dry-trees.jpg");
+    background-size: cover;
+    height: 78vh;
+}
+
+.home div{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    align-items: stretch;
+    margin: 100px auto;
+}
+
+.home div p {
+    margin: 20px;
+    background-color: rgba(80,80,80,0.65);
+    padding: 20px;
+    border-radius: 26px;
+}
+
+.registration {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: url("../img/dry-trees.jpg");
+    background-size: cover;
+    height: 78vh;
+    flex-direction: column;
+}
+.registration h1{
+    font-size: 50px;
+    flex-direction: row;
+    text-align: center;
+    line-height: 10vh;
+
+}
+.form-warrior{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
+.registration .form-warrior img{
+    display: flex;
+    width: 30%;
+    align-items: self-end;
+}
+.registration div {
+    background-color: rgba(80,80,80,0.65);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
+    padding: 0 20px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.form-warrior input {
+    font-size: 18px;
+}
+.form-warrior label{
+    margin: 5px;
+   padding: 3px;
+}
+.form-warrior label:hover{
+    color: #651818;
+    cursor: pointer;
+}
+.form-warrior button{
+    font-size: 22px;
+    background-color: #001745;
+    color:white;
+    padding: 10px;
+    border: 2px black solid;
+    margin: 20px;
+    border-radius: 5px;
+}
+.warrior-added{
+    box-sizing: border-box;
+    background-image: url("../img/pexels-eriks-cistovs-9935715.jpg");
+    background-size: cover;
+    height: 78vh;
+    padding: 40px;
+    overflow: hidden;
+}
+
+.warrior-added h2{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    box-sizing: border-box;
+    font-size: 30px;
+    margin: 20px;
+    padding: 15px;
+    background-color: rgba(80,80,80,0.55);
+    border-radius: 20px;
+    color:white;
+    flex-basis: 75%
+}
+
+.choose-warrior{
+    background-image: url("../img/trees-on-a-foggy-day.jpg");
+    background-size: cover;
+    height: 78vh;
+}
+.choose-warrior h1{
+    margin-bottom: 20px;
+    background-color: rgba(212,217,219,0.35);
+    border-radius: 10px;
+
+}
+.fight-form-window{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.fight-form{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-direction: column;
+    width: 60%;
+}
+.warrior1, .warrior2 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-basis: 25%;
+    border: 2px solid #242323;
+    margin: 20px;
+    padding-top: 20px;
+    background-color: rgba(212,217,219,0.15);
+    border-radius: 20px;
+}
+
+
+.warrior1 select, .warrior2 select {
+    padding: 10px 15px;
+    margin-top: 25px;
+    border-radius: 5px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+    background: #e2dfdf;
+    cursor: pointer;
+    border: solid 2px black;
+}
+
+.warrior1 img, .warrior2 img{
+    width: 20%;
+    align-self: center;
+    margin: 20px;
+}
+
+.fight-form button{
+    width: 50%;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgba(89, 109, 129, 0.8);
+    align-self: center;
+    border: solid 2px black;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.fight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/fighting-knights.jpg");
+    background-size: cover;
+    height: 78vh;
+}
+
+.bg-fight{
+    width: 85%;
+    height: 80%;
+    background: rgba(175, 162, 152,0.8);
+    border-radius: 25px;
+    padding: 20px;
+    color: black;
+}
+
+
+.bg-fight h2{
+font-size: 45px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.bg-fight ol{
+    display: flex;
+   flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+.bg-fight ol li{
+    padding: 10px;
+    font-size: 20px;
+    color: #651818;
+
+}
+.bg-fight ol li:nth-child(2n){
+    padding: 10px;
+    font-size: 20px;
+    color: #001745;
+}
+.bg-fight ol li:last-child{
+    padding: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #5e0202;
+}
+
+.hall-of-fames{
+    display: flex;
+    background-image: url("../img/sword-ged6eaf5fd_1920.jpg");
+    backdrop-filter: blur(20px);
+    background-size: cover;
+    height: 78vh;
+    justify-content: right;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.list-hall-of-fames{
+    display: flex;
+    flex-direction: column;
+    background: rgba(172, 169, 167, 0.65);
+    padding: 10px;
+    min-height: 50%;
+    width: 55%;
+    border-radius: 10px;
+}
+
+.list-hall-of-fames table{
+    align-self: center;
+
+}
+.list-hall-of-fames thead{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.list-hall-of-fames th{
+    padding: 5px 25px;
+}
+.error{
+    border: 2px solid red;
+    background-color: #d49c9c;
+    padding: 30px;
+    font-size: 20px;
+}
