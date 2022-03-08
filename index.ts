@@ -31,6 +31,6 @@ app.use('/hall-of-fame', hallOfFameRouter);
 
 app.use(handleError);
 
-app.listen(3000, 'localhost', () => {
+app.listen(3000, '0.0.0.0', () => {
     console.log('Listening on http://localhost:3000');
 });
